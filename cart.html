@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+   
+    <link rel="stylesheet" href="style/style.css"> 
+</head>
+<body>
+
+
+    <section id="header">
+        <a href="#"><img src="images/logo.png" alt="logo" width="40px"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a  class="active" href="cart.html"><img src="images/shopping-bag.png" alt="cart" width="24px"></i></a></li>
+                <a href="#" id="close"><img src="/images/close.png" alt="close" width="25px"></a>
+            </ul>
+            <div id="mobile">     
+                <a href="cart.html"><img src="images/shopping-bag.png" alt="cart" width="24px"></a>
+                <i id="bar"><img src="/images/burger-bar.png" alt="menu" width="35px"></i>
+                 
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section id="page-header" class="about-header">   
+        <h2>#Cart</h2>
+        <p>Add Your coupon code & SAVE upto70%!</span></p> 
+
+    </section>
+
+
+   <section id="cart" class="section-p1">
+
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td><a href="#"><img src="/images/remove.png" alt="delete" id="delete-1"></a> </td>
+                <td><img src="/images/t-shirt5.webp" alt=""></td>
+                <td>Cartoon Astronaut T-shirts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>118.19</td>
+            </tr>
+
+            <tr>
+                <td><a href="#"><img src="/images/remove.png" alt="delete" id="delete-1"></a> </td>
+                <td><img src="/images/t-shirt6.webp" alt=""></td>
+                <td>Cartoon Astronaut T-shirts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>118.19</td>
+            </tr>
+
+            <tr>
+                <td><a href="#"><img src="/images/remove.png" alt="delete" id="delete-1"></a> </td>
+                <td><img src="/images/t-shirt1.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-shirts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>118.19</td>
+            </tr>
+        </tbody>
+    </table>
+
+   </section>
+
+   <section id="cart-add" class="section-p1">
+        <div id="coupon">
+
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$335</strong></td>
+                </tr>
+            </table>
+            <button id="normal">Proceed to checkout</button>
+        </div>
+
+   </section>
+
+   
+
+
+  
+
+ 
+
+
+  
+  <footer class="section-p1">
+
+<div class="footer">
+    <div class="col">
+        <img  src="/images/logo.png" alt="logo" id="logo1">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>1622 Enright Link SW</p>
+        <p><strong>Phone: </strong>523-569-2212</p>
+        <p> <strong>Hour: </strong> 10am - 9pm. Mon - Sat</p>
+
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <img src="/images/facebook.png" alt="img">
+                <img src="/images/instagram.png" alt="img">
+                <img src="/images/twitter.png" alt="img">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <div>
+                <img src="/images/app-store.jpg" alt="app" id="app">
+            </div>
+
+           <div>
+                <img src="/images/google-play.jpg" alt="app" id="play">
+            </div>
+            
+        </div>
+
+        <p>Secure Payment Gateways</p>
+        <img src="/images/pay-logo.jpg" alt="pay-card" id="card">
+
+    </div>
+</div>
+    <div class="copyrigt">
+        <p>&copy2024,DressU</p>
+    </div>
+
+    
+
+  </footer>
+
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
